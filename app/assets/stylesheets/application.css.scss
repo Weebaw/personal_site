@@ -1,0 +1,28 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+// .home-background{
+//   background-image: url("https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1545159_10151833354952190_729579788_n.jpg?oh=16fd483b90ca5ec21e924e4a2468578a&oe=56639DEF");
+//   // background-size: cover;
+// }
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    background-image: url("Dunes.JPG");
+    background-size: cover;
+}
