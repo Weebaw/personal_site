@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   resources :info, only:[:index]
 
   resources :sandbox, only: [:index]
-  
+
+  resources :tictoe, only: [:index]
 end
