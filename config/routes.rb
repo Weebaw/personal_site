@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   resources :sandbox, only: [:index]
 
   resources :tictoe, only: [:index]
+
+  resources :design, only: [:index]
+
 end

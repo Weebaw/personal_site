@@ -22,9 +22,79 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-body {
+.welcomebackground {
     background-image: url("Dunes.JPG");
+    min-height: 100%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
     background-size: cover;
 }
 
 footer { position: fixed; bottom: 0; }
+
+.profbackground {
+  background-color: #000080;
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+}
+
+#circle {
+  background-color: #7FFF00;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+    top: 22%;
+    left: 9%;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+  border-radius: 125px;
+}
+
+.backgroundbox{
+
+  background: linear-gradient(191deg, #39e805, #0fd2ba, #0f47d2);
+
+  width: 200px;
+  height: 200px;
+  position: float;
+  top: 100;
+  right: 100;
+  background-size: 600% 600%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
+  -webkit-animation: AnimationName 7s ease infinite;
+  -moz-animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+  }
+}
