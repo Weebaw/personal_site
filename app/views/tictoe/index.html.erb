@@ -2,11 +2,28 @@
 
   <head>
     <style media="screen">
+      table{
+        position: absolute;
+          top: 43%;
+          left: 43%;
+      }
+
+      #message{
+        position: absolute;
+          top: 40%;
+          left: 43%;
+      }
+
+      .gamebutton{
+        position: absolute;
+          top: 67%;
+          left: 43%;
+      }
       .Square{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         text-align: center;
-        font-size: 18pt;
+        font-size: 22pt;
         font-weight: bold;
         font-family: Verdana;
         color: red;
@@ -117,6 +134,10 @@
         <td id = "s9" class="Square" onclick= "nextMove(this);"></td>
       </tr>
     </table>
-    <a href="javascript: startGame(); ">Restart</a>
+    <a href="javascript: startGame(); " class= "gamebutton">Restart</a>
   </body>
-</html>
+  <footer>
+    <%= link_to "Back", sandbox_index_path, class: "btn btn-info" %>
+  </footer>
+
+  </html>

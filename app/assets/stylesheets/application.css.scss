@@ -23,6 +23,20 @@
 @import "bootstrap";
 
 .welcomebackground {
+    background-image: url("DenverBackground.jpg");
+    min-height: 100%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
+}
+
+.sandboxbackground{
     background-image: url("Dunes.JPG");
     min-height: 100%;
     min-width: 1024px;
@@ -36,10 +50,10 @@
     background-size: cover;
 }
 
-footer { position: fixed; bottom: 0; }
+footer { position: absolute; bottom: 0; }
 
 .profbackground {
-  background-color: #000080;
+  background-color: #6495ED;
   min-height: 100%;
   min-width: 1024px;
 
@@ -59,9 +73,16 @@ footer { position: fixed; bottom: 0; }
   position: absolute;
     top: 22%;
     left: 9%;
-  -webkit-border-radius: 125px;
-  -moz-border-radius: 125px;
-  border-radius: 125px;
+  -webkit-border-radius: 140px;
+  -moz-border-radius: 140px;
+  border-radius: 140px;
+  border: 5px solid black;
+}
+
+#infowell{
+  position: absolute;
+    top: 10%;
+  border: 15px ridge gray;
 }
 
 .backgroundbox{
@@ -70,13 +91,15 @@ footer { position: fixed; bottom: 0; }
 
   width: 200px;
   height: 200px;
-  position: float;
-  top: 100;
-  right: 100;
+  position: absolute;
+  top: 10%;
+  right: 10%;
   background-size: 600% 600%;
   border-width: 1px;
   border-style: solid;
   border-color: black;
+  text-align: center;
+  font-weight: bolder;
 
   -webkit-animation: AnimationName 7s ease infinite;
   -moz-animation: AnimationName 7s ease infinite;
