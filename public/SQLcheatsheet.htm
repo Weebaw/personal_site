@@ -1,0 +1,648 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 14">
+<link rel=File-List href="SQLcheatsheet_files/filelist.xml">
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+.font9
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font10
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.xl66
+	{mso-style-parent:style0;
+	white-space:normal;}
+.xl67
+	{mso-style-parent:style0;
+	color:#B3CCFF;
+	font-size:14.0pt;
+	font-family:Inherit;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.xl68
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.xl69
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	white-space:normal;}
+.xl70
+	{mso-style-parent:style0;
+	color:#4A4A4C;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	white-space:normal;}
+.xl71
+	{mso-style-parent:style0;
+	background:yellow;
+	mso-pattern:black none;}
+.xl72
+	{mso-style-parent:style0;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl73
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	white-space:normal;}
+.xl74
+	{mso-style-parent:style0;
+	color:white;
+	font-size:14.0pt;
+	font-family:Inherit;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.xl75
+	{mso-style-parent:style0;
+	background:#BFBFBF;
+	mso-pattern:black none;}
+.xl76
+	{mso-style-parent:style0;
+	background:#BFBFBF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl77
+	{mso-style-parent:style0;
+	vertical-align:top;
+	background:#BFBFBF;
+	mso-pattern:black none;}
+.xl78
+	{mso-style-parent:style0;
+	vertical-align:top;
+	background:#BFBFBF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl79
+	{mso-style-parent:style0;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#BFBFBF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	background:#BFBFBF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	background:#BFBFBF;
+	mso-pattern:black none;}
+.xl82
+	{mso-style-parent:style0;
+	color:white;
+	font-size:14.0pt;
+	font-family:Inherit;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	background:#BFBFBF;
+	mso-pattern:black none;}
+-->
+</style>
+</head>
+
+<body link=blue vlink=purple>
+
+<table border=0 cellpadding=0 cellspacing=0 width=1840 style='border-collapse:
+ collapse;table-layout:fixed;width:1840pt'>
+ <col width=251 style='mso-width-source:userset;mso-width-alt:10709;width:251pt'>
+ <col class=xl66 width=337 style='mso-width-source:userset;mso-width-alt:14378;
+ width:337pt'>
+ <col width=481 style='mso-width-source:userset;mso-width-alt:20522;width:481pt'>
+ <col width=370 style='mso-width-source:userset;mso-width-alt:15786;width:370pt'>
+ <col width=401 style='mso-width-source:userset;mso-width-alt:17109;width:401pt'>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 class=xl65 width=251 style='height:15.0pt;width:251pt'>SQL
+  Command</td>
+  <td class=xl69 width=337 style='width:337pt'>Function</td>
+  <td class=xl65 width=481 style='width:481pt'>Generic</td>
+  <td class=xl65 width=370 style='width:370pt'>eg.</td>
+  <td class=xl65 width=401 style='width:401pt'>extras</td>
+ </tr>
+ <tr height=30 style='height:30.0pt'>
+  <td height=30 style='height:30.0pt'>Data Types</td>
+  <td class=xl70 width=337 style='width:337pt'>All data stored in a relational
+  database is of a certain data type</td>
+  <td></td>
+  <td>TEXT, INTEGER, DATE, REAL</td>
+  <td></td>
+ </tr>
+ <tr class=xl77 height=76 style='mso-height-source:userset;height:76.0pt'>
+  <td height=76 class=xl77 style='height:76.0pt'>CREATE TABLE</td>
+  <td class=xl78 width=337 style='width:337pt'>creates a table with a<span
+  style="mso-spacerun:yes">&nbsp; </span>given name and columns</td>
+  <td class=xl78 width=481 style='width:481pt'>CREATE TABLE table_name(<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp; </span>column_1 data_type,<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp; </span>column_2 data_type,<br>
+  );</td>
+  <td class=xl79 width=370 style='width:370pt'>CREATE TABLE celebs(<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp; </span>id INTEGER,<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp; </span>name TEXT,<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp; </span>age INTEGER);</td>
+  <td class=xl77>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 style='height:15.0pt'>INSERT INTO</td>
+  <td class=xl66 width=337 style='width:337pt'>adds the specified row(s) to the
+  selected table</td>
+  <td>INSERT INTO table_name (column_1, column_2, column_3) VALUES (data_1,
+  data_2, data_3);</td>
+  <td class=xl68>INSERT INTO celebs (id, name, age) VALUES (1, 'Justin Bieber',
+  21);</td>
+  <td></td>
+ </tr>
+ <tr class=xl75 height=15 style='height:15.0pt'>
+  <td height=15 class=xl75 style='height:15.0pt'>SELECT</td>
+  <td class=xl76 width=337 style='width:337pt'>used to fetch data from the
+  database</td>
+  <td class=xl75>SELECT column FROM table_name</td>
+  <td class=xl75>SELECT name FROM celebs</td>
+  <td class=xl75>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 style='height:15.0pt'>* (ALL)</td>
+  <td class=xl66 width=337 style='width:337pt'>allows us to select all columns
+  from a given table</td>
+  <td>SELECT * FROM table_name</td>
+  <td>SELECT * FROM celebs</td>
+  <td></td>
+ </tr>
+ <tr class=xl75 height=45 style='height:45.0pt'>
+  <td height=45 class=xl75 style='height:45.0pt'>UPDATE</td>
+  <td class=xl76 width=337 style='width:337pt'>edits a row in the table</td>
+  <td class=xl76 width=481 style='width:481pt'>UPDATE table_name<br>
+  SET column = new_data<br>
+  WHERE column = static_data;</td>
+  <td class=xl76 width=370 style='width:370pt'>UPDATE celebs<br>
+  SET age = 22<br>
+  WHERE id = 1;</td>
+  <td class=xl75>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 style='height:15.0pt'>ALTER TABLE</td>
+  <td class=xl66 width=337 style='width:337pt'>allows us to make specified
+  changes to the selected table</td>
+  <td>ALTER TABLE table_name ADD COLUMN column_name data_type;</td>
+  <td>ALTER TABLE celebs ADD COLUMN twitter_handle TEXT;</td>
+  <td></td>
+ </tr>
+ <tr class=xl75 height=15 style='height:15.0pt'>
+  <td height=15 class=xl75 style='height:15.0pt'>DELETE FROM</td>
+  <td class=xl76 width=337 style='width:337pt'>delets one or more rows from the
+  specified table</td>
+  <td class=xl75>DELETE FROM table_name WHERE column_name IS NULL;</td>
+  <td class=xl75>DELETE FROM celebs WHERE twitter_handle IS NULL</td>
+  <td class=xl75>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 style='height:15.0pt'>IS NULL</td>
+  <td class=xl66 width=337 style='width:337pt'>a conditional in SQL that
+  returns a boolean</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl75 height=15 style='height:15.0pt'>
+  <td height=15 class=xl75 style='height:15.0pt'>SELECT DISTINCT</td>
+  <td class=xl76 width=337 style='width:337pt'>used to return unique
+  values<span style="mso-spacerun:yes">&nbsp;</span></td>
+  <td class=xl75>SELECT DISTINCT column_name FROM table_name;</td>
+  <td class=xl75>SELECT DISTINCT genre FROM movies;</td>
+  <td class=xl75>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 style='height:15.0pt'>WHERE</td>
+  <td class=xl66 width=337 style='width:337pt'>can be used to filter results</td>
+  <td>SELECT * FROM table_name WHERE column_name condition</td>
+  <td>SELECT * FROM movies WHERE imdb_rating &gt; 8;</td>
+  <td></td>
+ </tr>
+ <tr class=xl75 height=137 style='mso-height-source:userset;height:137.0pt'>
+  <td height=137 class=xl75 style='height:137.0pt'>LIKE</td>
+  <td class=xl76 width=337 style='width:337pt'>a special operator that can be
+  used with where to find a specific pattern in a column</td>
+  <td class=xl76 width=481 style='width:481pt'>SELECT * FROM table_name<br>
+  WHERE column_name LIKE &quot;pattern&quot;</td>
+  <td class=xl76 width=370 style='width:370pt'>SELECT * FROM movies<br>
+  WHERE name LIKE &quot;Se_en&quot;;</td>
+  <td class=xl76 width=401 style='width:401pt'>?-- the &quot;_&quot; is a
+  wildcard operator that allows any character to fit in this space, so:<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>? --&gt;
+  &quot;Se_en&quot; returns both &quot;Seven&quot; and &quot;Se7en&quot;<br>
+  ?-- the &quot;%&quot;
+  is a wildcard operator that matches zero or more letters in the pattern
+  so:<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>?-- &quot;a%&quot;
+  would return all names beginning with a<br>
+  <span
+  style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>?-- &quot;%a&quot; would
+  return all names ending with a<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>?--
+  &quot;%man%&quot; would return all names containing the string &quot;man&quot;
+  anywhere in the name</td>
+ </tr>
+ <tr height=60 style='height:60.0pt'>
+  <td height=60 style='height:60.0pt'>BETWEEN</td>
+  <td class=xl66 width=337 style='width:337pt'>allows us to filter our results
+  to a specified range using dates, letters, integers, etc</td>
+  <td class=xl66 width=481 style='width:481pt'>SELECT * FROM table_name<br>
+  WHERE column_name BETWEEN range_1 AND range_2;</td>
+  <td class=xl66 width=370 style='width:370pt'>SELECT * FROM movies<br>
+  WHERE year BETWEEN 1999 AND 2011;</td>
+  <td class=xl66 width=401 style='width:401pt'>can also be used with AND to
+  further filter<br>
+  SELECT * FROM movies<br>
+  WHERE year BETWEEN 1999 AND 2011<br>
+  AND genre = 'comedy';</td>
+ </tr>
+ <tr class=xl75 height=45 style='height:45.0pt'>
+  <td height=45 class=xl75 style='height:45.0pt'>OR</td>
+  <td class=xl76 width=337 style='width:337pt'>can be used with WHERE to
+  combine more than one condition</td>
+  <td class=xl76 width=481 style='width:481pt'>SELECT * FROM table_name<br>
+  WHERE condition_1<br>
+  OR condition_2;</td>
+  <td class=xl76 width=370 style='width:370pt'>SELECT * FROM movies<br>
+  WHERE genre = &quot;comedy&quot;<br>
+  OR year &lt; 1980;</td>
+  <td class=xl75>&nbsp;</td>
+ </tr>
+ <tr height=30 style='height:30.0pt'>
+  <td height=30 style='height:30.0pt'>ORDER BY</td>
+  <td class=xl66 width=337 style='width:337pt'>allows us to sort the results of
+  our query by DESC (Z-A or high to low) or by ASC (A-Z or low to high)</td>
+  <td class=xl66 width=481 style='width:481pt'>SELECT * FROM table_name<br>
+  ORDER BY column_name order</td>
+  <td class=xl66 width=370 style='width:370pt'>SELECT * FROM movies<br>
+  ORDER BY imdb_rating DESC</td>
+  <td></td>
+ </tr>
+ <tr class=xl75 height=45 style='height:45.0pt'>
+  <td height=45 class=xl75 style='height:45.0pt'>LIMIT</td>
+  <td class=xl76 width=337 style='width:337pt'>limits the number of results
+  returned to a specified number</td>
+  <td class=xl76 width=481 style='width:481pt'>SELECT * FROM table_name<br>
+  ORDER BY column_name order<br>
+  LIMIT quantity;</td>
+  <td class=xl76 width=370 style='width:370pt'>SELECT * FROM movies<br>
+  ORDER BY imdb_rating DESC<br>
+  LIMIT 3;</td>
+  <td class=xl75>&nbsp;</td>
+ </tr>
+ <tr class=xl71 height=15 style='height:15.0pt'>
+  <td height=15 class=xl71 style='height:15.0pt'>Working with Aggregate
+  Functions (SQL):</td>
+  <td class=xl72 width=337 style='width:337pt'>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+ </tr>
+ <tr height=105 style='page-break-before:always;height:105.0pt'>
+  <td height=105 style='height:105.0pt'>COUNT ()</td>
+  <td class=xl66 width=337 style='width:337pt'>COUNT() is a function that takes
+  a column name and counts the number of rows where the column is not NULL</td>
+  <td class=xl66 width=481 style='width:481pt'>SELCET COUNT(column_name) FROM
+  table_name;</td>
+  <td class=xl66 width=370 style='width:370pt'>SELECT COUNT(*) FROM fake_apps</td>
+  <td class=xl66 width=401 style='width:401pt'>can be paired with other sorting
+  operations, so:<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>?-- the code in the
+  example block just returns a total count of all rows in this table<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;
+  </span>SELECT price COUNT(*) FROM fake_apps<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp; </span>GROUP BY price;<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>?-- the above code
+  would return a list of the prices and how many fall into each price catagory</td>
+ </tr>
+ <tr class=xl75 height=45 style='height:45.0pt'>
+  <td height=45 class=xl75 style='height:45.0pt'>GROUP BY</td>
+  <td class=xl76 width=337 style='width:337pt'>an operator that is only used
+  with aggregate functions with SELECT to arrange identical data into groups it
+  is common to GROUP BY the same column you SELECT</td>
+  <td class=xl76 width=481 style='width:481pt'><span
+  style="mso-spacerun:yes">&nbsp;&nbsp; </span>SELECT column_name COUNT(*) FROM
+  table_name<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp; </span>GROUP BY column_name;</td>
+  <td class=xl76 width=370 style='width:370pt'><span
+  style="mso-spacerun:yes">&nbsp;&nbsp; </span>SELECT price COUNT(*) FROM
+  fake_apps<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp; </span>WHERE downloads &lt;
+  20000 <br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp; </span>GROUP BY price;</td>
+  <td class=xl75>&nbsp;</td>
+ </tr>
+ <tr height=75 style='height:75.0pt'>
+  <td height=75 style='height:75.0pt'>SUM()</td>
+  <td class=xl66 width=337 style='width:337pt'>SUM() is a function that takes a
+  column name and allows us to add values from that specific column</td>
+  <td class=xl66 width=481 style='width:481pt'>SELECT SUM(column_name) FROM
+  table_name;</td>
+  <td class=xl66 width=370 style='width:370pt'>SELECT SUM(downloads) FROM
+  fake_apps;</td>
+  <td class=xl66 width=401 style='width:401pt'>can also be used with GROUP
+  BY:<br>
+  SELECT category, SUM(downloads) FROM fake_apps<br>
+  GROUP BY category;<br>
+  <span style="mso-spacerun:yes">&nbsp; </span>?-- the above code would return
+  the total number of downloads sorted by category</td>
+ </tr>
+ <tr class=xl75 height=60 style='height:60.0pt'>
+  <td height=60 class=xl75 style='height:60.0pt'>MAX()</td>
+  <td class=xl76 width=337 style='width:337pt'>MAX() is a function that finds
+  the largest number in a specified column</td>
+  <td class=xl76 width=481 style='width:481pt'>SELECT MAX(column_name) FROM
+  table_name;</td>
+  <td class=xl76 width=370 style='width:370pt'>SELECT MAX(downloads) FROM
+  fake_apps;</td>
+  <td class=xl76 width=401 style='width:401pt'>To return the names of the most
+  downloaded apps in each category we could query:<br>
+  SELECT name, category, MAX(downloads) FROM fake_apps<br>
+  GROUP BY category;</td>
+ </tr>
+ <tr height=30 style='height:30.0pt'>
+  <td height=30 style='height:30.0pt'>MIN()</td>
+  <td class=xl66 width=337 style='width:337pt'>MIN() is a function that finds
+  the smallest number in a specified column</td>
+  <td>SELECT MIN(column_name) FROM table_name;</td>
+  <td>SELECT MIN(downloads) FROM fake_apps;</td>
+  <td></td>
+ </tr>
+ <tr class=xl75 height=60 style='height:60.0pt'>
+  <td height=60 class=xl75 style='height:60.0pt'>AVG()</td>
+  <td class=xl76 width=337 style='width:337pt'>AVG() is a function that takes a
+  column name and finds the average of the numbers within that column</td>
+  <td class=xl75>SELECT AVG(column_name) FROM table_name;</td>
+  <td class=xl76 width=370 style='width:370pt'>SELECT AVG(downloads) FROM
+  fake_apps;</td>
+  <td class=xl76 width=401 style='width:401pt'>Can be used with GROUP BY as
+  well and the values can be rounded, the following will round to the second
+  decimal place:<br>
+  SELECT price, ROUND(AVG(downloads), 2) FROM fake_apps<br>
+  GROUP BY price;</td>
+ </tr>
+ <tr height=45 style='height:45.0pt'>
+  <td height=45 style='height:45.0pt'>ROUND()</td>
+  <td class=xl66 width=337 style='width:337pt'>ROUND() takes a column name and
+  an integer as an argument and rounds the values in the specified column to
+  the specified number of digits after the decimal</td>
+  <td class=xl66 width=481 style='width:481pt'>SELECT column_name1,
+  ROUND(AVG(column_name2)) FROM table_name<br>
+  GROUP BY column_name;</td>
+  <td class=xl66 width=370 style='width:370pt'>SELECT price,
+  ROUND(AVG(downloads)) FROM fake_apps<br>
+  GROUP BY price;</td>
+  <td class=xl66 width=401 style='width:401pt'>Using round without providing an
+  integer will result in the value being rounded to the nearest whole number</td>
+ </tr>
+ <tr class=xl71 height=15 style='height:15.0pt'>
+  <td height=15 class=xl71 style='height:15.0pt'>multi-table SQL</td>
+  <td class=xl72 width=337 style='width:337pt'>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+ </tr>
+ <tr class=xl75 height=45 style='height:45.0pt'>
+  <td height=45 class=xl75 style='height:45.0pt'>PRIMARY KEY</td>
+  <td class=xl76 width=337 style='width:337pt'>serves as a unique identifier
+  for each row or record in a given table</td>
+  <td class=xl75>CREATE TABLE(column_1 data_type PRIMARY KEY, column_2
+  data_type);</td>
+  <td class=xl75>CREATE TABLE(id INTEGER PRIMARY KEY, name TEXT);</td>
+  <td class=xl76 width=401 style='width:401pt'>Specifiying a column as the
+  PRIMARY KEY means:<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>?--none of the
+  values in this column are NULL<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>?--each value in
+  the column is unique</td>
+ </tr>
+ <tr height=75 style='height:75.0pt'>
+  <td height=75 style='height:75.0pt'>foreign<span
+  style="mso-spacerun:yes">&nbsp; </span>key (not a command)</td>
+  <td class=xl73 width=337 style='width:337pt'>A&nbsp;<font class="font10">foreign
+  key</font><font class="font9">&nbsp;is a column that contains the primary key
+  of another table in the database. We use foreign keys and primary keys to
+  connect rows in two different tables. One table's foreign key holds the value
+  of another table's primary key. Unlike primary keys, foreign keys do not need
+  to be unique and can be&nbsp;NULL</font></td>
+  <td class=xl73 width=481 style='width:481pt'>Here,&nbsp;artist_id&nbsp;is a
+  foreign key in the&nbsp;albums&nbsp;table. We can see that Michael Jackson
+  has an&nbsp;id&nbsp;of 3 in theartists&nbsp;table. All of the albums by
+  Michael Jackson also have a 3 in the&nbsp;artist_id&nbsp;column in the&nbsp;albums&nbsp;table.</td>
+  <td class=xl73 width=370 style='width:370pt'>This is how SQL is linking data
+  between the two tables. The&nbsp;<font class="font10">relationship</font><font
+  class="font9">&nbsp;between the&nbsp;artists&nbsp;table and
+  thealbums&nbsp;table is the&nbsp;id&nbsp;value of the artists.</font></td>
+  <td class=xl66 width=401 style='width:401pt'>To select data from both tables
+  we would query:<br>
+  SELECT albums.name, albums.year, artists.name FROM albums, artists;</td>
+ </tr>
+ <tr class=xl75 height=60 style='height:60.0pt'>
+  <td height=60 class=xl75 style='height:60.0pt'>cross join (not a command)</td>
+  <td class=xl80 width=337 style='width:337pt'>One way to query multiple tables
+  is to write aSELECT&nbsp;statement with multiple table names separated by a
+  comma. This is also known as a&nbsp;<font class="font10">cross join</font><font
+  class="font9">. Here,&nbsp;albums&nbsp;and&nbsp;artists&nbsp;are the
+  different tables we are querying.</font></td>
+  <td class=xl80 width=481 style='width:481pt'>When querying more than one
+  table, column names need to be specified by&nbsp;table_name.column_name.
+  Here, the result set includes the&nbsp;name&nbsp;and&nbsp;yearcolumns from
+  the&nbsp;albums&nbsp;table and the&nbsp;namecolumn from
+  the&nbsp;artists&nbsp;table.</td>
+  <td class=xl80 width=370 style='width:370pt'>Unfortunately the result of this
+  cross join is not very useful. It combines every row of
+  the&nbsp;artists&nbsp;table with every row of the&nbsp;albums&nbsp;table. It
+  would be more useful to only combine the rows where the album was created by
+  the artist.</td>
+  <td class=xl81>SELECT albums.name, albums.year, artists.name FROM albums,
+  artists</td>
+ </tr>
+ <tr height=135 style='page-break-before:always;height:135.0pt'>
+  <td height=135 style='height:135.0pt'>inner join (not a command)</td>
+  <td class=xl73 width=337 style='width:337pt'>In SQL, joins are used to
+  combine rows from two or more tables. The most common type of join in SQL is
+  an&nbsp;<font class="font10">inner join</font><font class="font9">.<br>
+  An inner join will combine rows from different tables if the&nbsp;join
+  condition&nbsp;is true. Let's look at the syntax to see how it works.</font></td>
+  <td class=xl66 width=481 style='width:481pt'>1. SELECT * specifies the
+  columns our result set will have. Here, we want to include every column in
+  both tables.<br>
+  2. FROM albums specifies the first table we are querying.<br>
+  3. JOIN artists ON specifies the type of join we are going to use as well
+  as the name of the second table. Here, we want to do an inner join and the
+  second table we want to query is artists.<br>
+  4. albums.artist_id = artists.id is the join condition that describes how
+  the two tables are related to each other. Here, SQL uses the foreign key
+  column artist_id in the albums table to match it with exactly one row in the
+  artists table with the same value in the id column. We know it will only
+  match one row in the artists table because id is the PRIMARY KEY of artists.</td>
+  <td class=xl67></td>
+  <td class=xl66 width=401 style='width:401pt'>SELECT<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>*<br>
+  FROM <br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>albums<br>
+  JOIN artists ON<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>albums.artist_id
+  = artists.id</td>
+ </tr>
+ <tr class=xl75 height=90 style='height:90.0pt'>
+  <td height=90 class=xl75 style='height:90.0pt'>outer join (not a command)</td>
+  <td class=xl80 width=337 style='width:337pt'>Outer joins also combine rows
+  from two or more tables, but unlike inner joins, they do not require the join
+  condition to be met. Instead, every row in the&nbsp;<font class="font10">left</font><font
+  class="font9">&nbsp;table is returned in the result set, and if the join
+  condition is not met, then NULL&nbsp;values are used to fill in the columns
+  from the&nbsp;</font><font class="font10">right </font><font class="font9">table.</font></td>
+  <td class=xl80 width=481 style='width:481pt'>The left table is simply the
+  first table that appears in the statement. Here, the left table
+  is&nbsp;albums. Likewise, the right table is the second table that appears.
+  Here,artists&nbsp;is the right table.</td>
+  <td class=xl82>&nbsp;</td>
+  <td class=xl76 width=401 style='width:401pt'>SELECT<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>*<br>
+  FROM <br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>albums<br>
+  LEFT JOIN artists ON<br>
+  <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>albums.artist_id
+  = artists.id</td>
+ </tr>
+ <tr height=150 style='height:150.0pt'>
+  <td height=150 style='height:150.0pt'>AS</td>
+  <td class=xl73 width=337 style='width:337pt'>allows you to rename a column or
+  table using an&nbsp;<font class="font10">alias</font><font class="font9">.
+  The new name can be anything you want as long as you put it inside of single
+  quotes</font></td>
+  <td class=xl73 width=481 style='width:481pt'>It is important to note that the
+  columns have not been renamed in either table. The aliases only appear in the
+  result set.</td>
+  <td class=xl67></td>
+  <td class=xl66 width=401 style='width:401pt'>SELECT<br>
+  <span style="mso-spacerun:yes">&nbsp; </span>albums.name AS 'Album',<br>
+  <span style="mso-spacerun:yes">&nbsp; </span>albums.year,<br>
+  <span style="mso-spacerun:yes">&nbsp; </span>artists.name AS 'Artist'<br>
+  FROM<br>
+  <span
+  style="mso-spacerun:yes">&nbsp; </span>albums<br>
+  JOIN artists ON<br>
+  <span style="mso-spacerun:yes">&nbsp; </span>albums.artist_id =
+  artists.id<br>
+  WHERE<br>
+  <span style="mso-spacerun:yes">&nbsp; </span>albums.year &gt; 1980;</td>
+ </tr>
+ <tr height=18 style='height:18.0pt'>
+  <td height=18 style='height:18.0pt'></td>
+  <td class=xl66 width=337 style='width:337pt'></td>
+  <td></td>
+  <td class=xl74></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:18.0pt'>
+  <td height=18 style='height:18.0pt'></td>
+  <td class=xl66 width=337 style='width:337pt'></td>
+  <td></td>
+  <td class=xl67></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:18.0pt'>
+  <td height=18 style='height:18.0pt'></td>
+  <td class=xl66 width=337 style='width:337pt'></td>
+  <td></td>
+  <td class=xl74></td>
+  <td></td>
+ </tr>
+</table>
+
+</body>
+
+</html>
