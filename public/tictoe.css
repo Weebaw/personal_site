@@ -1,0 +1,27 @@
+table{
+    position: absolute;
+    top: 43%;
+    left: 43%;
+}
+
+#message{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+
+.gamebutton{
+    position: absolute;
+    top: 67%;
+    left: 43%;
+}
+.Square{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    font-family: Verdana;
+    color: red;
+}
+
