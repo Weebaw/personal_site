@@ -121,10 +121,10 @@ footer { position: absolute; bottom: 0; }
     50%{background-position:88% 100%}
     100%{background-position:13% 0%}
   }
+}
 
-  .neonshadow{
+.neonshadow{
   color: white;
-  text-shadow: 0pc 8px 8px yellow,
-               0pc 26px 26px yellow;
-  }
+  text-shadow: 0pc 8px 8px #FFFF00,
+               0pc 20px 20px yellow;
 }
