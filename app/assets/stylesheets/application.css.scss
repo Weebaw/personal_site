@@ -23,7 +23,7 @@
 @import "bootstrap";
 
 .welcomebackground {
-    background-image: image-url("denver-skyline-winter-wallpaper-3.jpg");
+    background-image: image_path("denver-skyline-winter-wallpaper-3.jpg");
     //picture shamelessly lifted from www.denvercoluxuryhomes.com
     min-height: 100%;
     min-width: 1024px;
@@ -38,7 +38,7 @@
 }
 
 .sandboxbackground{
-    background-image: url("Dunes.JPG");
+    background-image: image_path("Dunes.JPG");
     min-height: 100%;
     min-width: 1024px;
 
